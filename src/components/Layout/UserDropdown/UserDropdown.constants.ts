@@ -1,0 +1,1 @@
+export const USER_DROPDOWN_EMAIL_MAX_WIDTH = '180px';

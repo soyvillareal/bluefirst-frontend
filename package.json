@@ -3,20 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start:local": "cross-env APP_ENV=local next dev",
+    "start:dev": "cross-env APP_ENV=dev next dev",
+    "build:dev": "cross-env APP_ENV=dev next build",
+    "build:staging": "cross-env APP_ENV=staging next build",
+    "build:prod": "cross-env APP_ENV=prod next build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.4.2",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.10",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/lab": "^5.0.0-alpha.136",
+    "@mui/material": "^5.14.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/redux-logger": "^3.0.9",
+    "i18next": "^23.2.11",
+    "i18next-browser-languagedetector": "^7.1.0",
     "next": "13.4.10",
+    "ramda": "^0.29.0",
+    "ramda-adjunct": "^4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "react-hook-form": "^7.45.1",
+    "react-i18next": "^13.0.2",
+    "react-redux": "^8.1.1",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/ramda": "^0.29.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^13.4.10",
+    "redux-logger": "^3.0.6",
+    "typescript": "^5.1.6"
   }
 }

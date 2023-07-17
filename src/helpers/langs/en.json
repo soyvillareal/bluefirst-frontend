@@ -1,0 +1,41 @@
+{
+    "component": {
+        "home": "Inicio",
+        "users": "Users",
+        "sessions": "Sessions",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "email": "Email",
+        "password_confirmation": "Password confirmation",
+        "gender": "Gender",
+        "gender_no_options": "Please select a gender",
+        "gender_placeholder": "Select your gender",
+        "male": "Male",
+        "female": "Female",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "password_requirements": "Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter and one number",
+        "signup_title": "Sign up",
+        "username": "Username",
+        "password": "Password",
+        "back_button_title": "Back",
+        "lang_menu_en": "English",
+        "lang_menu_es": "Spanish"
+    },
+    "error": {
+        "firstName_error": "First name is required",
+        "lastName_error": "Last name is required",
+        "username_error": "Username is required",
+        "mail_error": "Mail is required",
+        "gender_error": "Gender is required",
+        "password_min_length": "Password must be at least 8 characters long",
+        "password_max_length": "Password must be less than 60 characters long",
+        "password_required": "Password is required",
+        "password_must_match": "Passwords must match",
+        "password_lower": "Password must contain at least one lowercase letter",
+        "password_upper": "Password must contain at least one uppercase letter",
+        "password_number": "Password must contain at least one number",
+        "USERNAME_OR_EMAIL_ALREADY_EXISTS": "Username or email already exists"
+    }
+}

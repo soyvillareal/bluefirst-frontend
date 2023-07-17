@@ -1,0 +1,41 @@
+{
+    "component": {
+        "home": "Home",
+        "users": "Usuarios",
+        "sessions": "Sessiones",
+        "login": "Entrar",
+        "register": "Registrarme",
+        "logout": "Salir",
+        "email": "Correo",
+        "password_confirmation": "Confirmar contraseña",
+        "gender": "Genero",
+        "gender_no_options": "Porfavor selecciona un genero",
+        "gender_placeholder": "Seleciona tu genero",
+        "male": "Masculino",
+        "female": "Femenino",
+        "firstName": "Primer nombre",
+        "lastName": "Apellido",
+        "password_requirements": "La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número",
+        "signup_title": "Registrate",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "back_button_title": "Regresar",
+        "lang_menu_en": "Ingles",
+        "lang_menu_es": "Español"
+    },
+    "error": {
+        "firstName_error": "Se requiere el primer nombre",
+        "lastName_error": "Se requiere el apellido",
+        "username_error": "Se requiere el nombre de usuario",
+        "mail_error": "Se requiere el correo",
+        "gender_error": "Se requiere el género",
+        "password_min_length": "La contraseña debe tener al menos 8 caracteres",
+        "password_max_length": "La contraseña debe tener menos de 60 caracteres",
+        "password_required": "se requiere contraseña",
+        "password_must_match": "Las contraseñas deben coincidir",
+        "password_lower": "La contraseña debe contener al menos una letra minúscula",
+        "password_upper": "La contraseña debe contener al menos una letra mayúscula",
+        "password_number": "La contraseña debe contener al menos un número",
+        "USERNAME_OR_EMAIL_ALREADY_EXISTS": "El usuario o el correo ya existe"
+    }
+}
